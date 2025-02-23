@@ -1,0 +1,17 @@
+
+.subfolder-list {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap to next line if needed */
+  gap: 20px; /* Adds space between items */
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+.subfolder-item {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  width: 200px; /* Adjust as needed */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
